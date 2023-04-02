@@ -33,6 +33,15 @@
     bottom: 100px;
 
 }
+.productos .card{
+    border-radius: 0;
+    border: none;
+    background-color: black;
+}
+.card-img{
+    object-fit: scale-down;
+}
+
 
 .conocenos-btn{
     background-color: rgba(0, 0, 0, 0.47);
@@ -54,8 +63,13 @@
 }
 
 .productos{
-    
+    color: #FFFFFF;
     background-color: rgb(93, 89, 89);
+}
+.prod-title{
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
 }
 .calidad, .contact, .receta, .pre-footer{
     background-color: rgb(72, 71, 71);
@@ -110,8 +124,32 @@
     border: 2px solid rgb(130, 75, 9);
     color:rgb(130, 75, 9);
 }
-.card-recetas .card-title{
+.card-recetas, .card-title{
     color:rgb(130, 75, 9);
+}
+.card-text{
+    color: #FFFFFF;
+}
+.ft-card {
+    color:rgb(239, 193, 137);
+}
+.btn-card-prod{
+    color:rgb(239, 193, 137);
+    border: 2px solid rgb(239, 193, 137);
+    border-radius: 0;
+    width: 100px;
+    align-self: center;
+}
+.card-body{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.maicena-card{
+    position: absolute;
+    
+}
+.calidad-text{
+    color:rgb(239, 193, 137);
 }
 
 footer{
