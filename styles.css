@@ -154,10 +154,11 @@
 
 footer{
     background-color: black;
-    height: 150px;
+    /* height: 150px; */
+    height: max-content;
     display: flex;
     text-align: start;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     color:  rgb(130, 75, 9);
     
@@ -169,7 +170,13 @@ list-style: none;
 }
 .footer-nav{
     padding: 0;
+
 }
+
+.ft-logo{
+    align-self: center;
+}
+
 .ft-link{
     text-decoration: none;
     color: #FFFFFF;
@@ -203,4 +210,14 @@ list-style: none;
 
 
 
+}
+
+@media only screen and (min-width:768px){
+    .card-flex{
+        display: flex;
+    }
+
+    .img-invertida{
+        order: 2;
+    }
 }
